@@ -1,0 +1,44 @@
+body {
+  width: auto;
+  font: normal 400 bold 12px/30px  'Open Sans', sans-serif;
+
+  .header {
+    height: 120px;
+    background: whitesmoke;
+    border: rgb(188, 184, 184) thick double;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+  .fonter {
+    font-size: 14;
+  }
+  .divider {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+  }
+  .left-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-divider {
+    display: block;
+
+  }
+
+  .right-inner-divider {
+    display: flex;
+    // align-items: center;
+    justify-content: space-evenly;
+    // width: calc(33.33333% - 40px);
+    margin-top: 20px;
+  }
+  .button-style {
+    margin: 7px;
+  }
+}

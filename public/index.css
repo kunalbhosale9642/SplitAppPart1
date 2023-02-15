@@ -1,0 +1,36 @@
+body {
+  width: auto;
+  font: normal 400 bold 12px/30px "Open Sans", sans-serif;
+}
+body .header {
+  height: 120px;
+  background: whitesmoke;
+  border: rgb(188, 184, 184) thick double;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .fonter {
+  font-size: 14;
+}
+body .divider {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+body .left-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .right-divider {
+  display: block;
+}
+body .right-inner-divider {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+body .button-style {
+  margin: 7px;
+}/*# sourceMappingURL=index.css.map */
